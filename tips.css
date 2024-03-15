@@ -1,0 +1,9 @@
+.tips{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 12px;
+  margin-left: 30px;
+}
+.tip:hover{
+  text-decoration: underline;
+}
