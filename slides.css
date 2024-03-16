@@ -1,0 +1,10 @@
+.slides {
+  display: flex; /* Use flexbox to align images horizontally */
+  overflow: hidden; /* Hide overflow to ensure images stay within container */
+}
+
+.slide {
+   width: 500px;/* Ensure images don't exceed container width */
+  height: 400px; /* Maintain aspect ratio */
+  transition: transform 1s ease-in-out; /* Apply smooth transition effect */
+}

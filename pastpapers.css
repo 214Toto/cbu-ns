@@ -1,0 +1,40 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  margin-left: 3px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  font-style: italic;
+}
+.past{
+  font-size: 40px;
+  margin-top: 20px;
+  text-decoration: underline;
+  color: dimgray;
+  margin-bottom:50px;
+}
+a{
+  color: ghostwhite;
+}
+.row-one{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: minmax(100px, auto);
+  gap: 20px;
+}
+.b{
+  display: flex;
+  padding: 20px;
+  border-radius: 5px;
+  background-image: url('colors.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.header1{
+  margin-top: 15px;
+  text-decoration: underline;
+  color: antiquewhite;
+}

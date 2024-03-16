@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link rel="stylesheet" href="slides.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<title>Login Page</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('colors.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+    margin: 0;
+  }
+  h2{
+    
+    font-style: italic;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('colors.jpg'); /* Same background image as body */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: blur(10px); /* Adjust the blur radius as needed */
+    z-index: -1;
+  }
+  .container {
+    margin-bottom: 10px;
+    width: 250px;
+    padding: 20px;
+    color: rgb(116, 38, 10);
+    background-color: rgba(167, 143, 143, 0.7); /* Adjust the opacity as needed */
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  .text {
+  text-decoration: underline;
+  position: absolute;
+  top: 145px;/* Adjust top position as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  color: rgb(95, 37, 10);
+  text-shadow: 0 0 10px rgb(116, 38, 10), 0 0 20px rgb(116, 38, 10), 0 0 30px rgb(116, 38, 10);
+  animation: glow .5s ease-in-out infinite alternate;
+}
+
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px rgb(116, 38, 10), 0 0 20px rgb(116, 38, 10), 0 0 30px rgb(116, 38, 10);
+  }
+  to {
+    text-shadow: 0 0 20px rgb(116, 38, 10), 0 0 40px rgb(116, 38, 10), 0 0 60px rgb(116, 38, 10);
+  }
+}
+  .form-group {
+    margin-bottom: 15px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .login {
+    
+    width: 100%;
+    background-color: #06880a;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .login:hover {
+    background-color: #21ce29;
+  }
+  .join {
+    margin-top: 10px;
+    width: 100%;
+    background-color: #775407;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+  }
+  .pay{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+  }
+  .join:hover {
+    background-color: #c28b13;
+  }
+  .payment{
+    display: flex;
+    margin-left: 8px;
+    font-size: 20px;
+  }
+  .airtel{
+    margin-left: 30px;
+    margin-top: 6px;
+  }
+</style>
+</head>
+<body>
+  <div class="overlay"></div>
+  <div class="container">
+    <h1 class="text"> Alert !</h1><i class='bx bxs-traffic-barrier bx-md'></i>
+    <h3>
+      Hey You ! Sick of Hunting Down Past Papers and Tutorial Sheet Solutions like Buried Tressure ? Time to Upgrade to SOLVED where data runs wild. All for Just a K60/term to access the Solved Papers we have for you. Its like Having a cheat code for academic success ! Join the Solved Squad Now
+    </h3>
+    <div class="payment">
+      <div class="mtn">
+        <img src="IMG_20240313_224148.png" width="100px" height="70px">
+        <p> 0965091047 </p>
+      </div>
+      <div class="airtel">
+        <img src="IMG_20240313_224129.png" width="80px" height="60px">
+        <p> 0770511534 </p>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="slides.js"></script>
+</body>
+</html>

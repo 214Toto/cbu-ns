@@ -1,0 +1,27 @@
+.book{
+  justify-content: center;
+  align-self: self-start;
+  height: 100vh;
+  margin: 0;
+}
+.them{
+  color: rgb(42, 247, 247);
+}
+.tutorial{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: minmax(100px, auto);
+  gap: 12px;
+}
+.proof{
+  border-radius: 20px;
+  padding: 11px;
+}
+h1{
+  font-size: 30px;
+  color: rgb(240, 240, 43);
+}
+.close{
+  font-size: 25px;
+  margin: 20px;
+}

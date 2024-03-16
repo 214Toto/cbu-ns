@@ -1,0 +1,32 @@
+.stuff{
+  font-size: 23px;
+}
+.step1{
+  margin: 10px;
+  color: rgb(192, 138, 22);
+}
+.guide{
+  margin-top: 15px;
+  font-size: 23px;
+}
+.freesites{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: minmax(100px, auto);
+  gap: 20px;
+}
+.rcmd{
+  border-radius: 20px;
+  padding: 15px;
+}
+.them{
+  color: rgb(243, 94, 39);
+}
+.laststuff{
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+.myvideo{
+  font-size: 25px;
+  margin-bottom:30px;
+}
